@@ -1,13 +1,4 @@
 @charset "utf-8";
-/*
-Template Name: Chillaid
-Author: <a href="https://www.os-templates.com/">OS Templates</a>
-Author URI: https://www.os-templates.com/
-Copyright: OS-Templates.com
-Licence: Free to use under our free template licence terms
-Licence URI: https://www.os-templates.com/template-terms
-File: Layout CSS
-*/
 
 @import url("fontawesome-free/css/fontawesome-all.min.css");
 @import url("framework.css");
@@ -451,13 +442,13 @@ table a, #comments a{background-color:inherit;}
 
 /* Max Wrapper Width - Laptop, Desktop etc.
 --------------------------------------------------------------------------------------------------------------- */
-@media screen and (min-width:1140px){
+/* @media screen and (min-width:1140px){
 	.hoc{max-width:1140px;}
 }
 
 @media screen and (min-width:978px) and (max-width:1140px){
 	.hoc{max-width:95%;}
-}
+} */
 
 
 /* Mobile Devices
