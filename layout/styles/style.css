@@ -1,0 +1,72 @@
+.navbar-nav {
+    margin-left: auto;
+}
+
+.navbar-nav .ml-auto {
+    margin-right: 10px;
+}
+
+.navbar-nav .nav-item {
+    color: red;
+}
+
+.logoname a {
+    color:#FFFFFF;
+    margin-left: 1.1rem;
+}
+.logoname::first-letter, .logoname span {
+    color:#97BDAB;
+}
+
+.bgmain {
+    background-image: url('images/BG_main.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    /* opacity: 20%; */
+}
+
+/* .heading #pageintro{
+    color: black;
+} */
+
+#pageintro{padding:200px 0 280px;}/* 280px => 80px for #introblocks negative margin */
+
+#pageintro article, #pageintro article p {
+    display:block; 
+    max-width:75%; 
+    margin:0 auto; 
+    text-align:center;
+}
+
+#pageintro article p {
+    max-width:65%; 
+    line-height:2rem;
+}
+
+#pageintro .heading {
+    margin-bottom:20px; 
+    font-size:4rem;
+}
+
+#pageintro footer {
+    margin-top:50px;
+}
+
+/* Transition Fade
+This gives a smooth transition to "ALL" elements used in the layout - other than the navigation form used in mobile devices
+If you don't want it to fade all elements, you have to list the ones you want to be faded individually
+Delete it completely to stop fading
+--------------------------------------------------------------------------------------------------------------- */
+*, *::before, *::after{transition:all .3s ease-in-out;}
+#mainav form *{transition:none !important;}
+
+.col-sm-3 {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+
+  .cpimg {
+      image-resolution: 25%;
+  }

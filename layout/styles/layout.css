@@ -22,12 +22,7 @@
 
 /* Page Intro
 --------------------------------------------------------------------------------------------------------------- */
-#pageintro{padding:200px 0 280px;}/* 280px => 80px for #introblocks negative margin */
 
-#pageintro article, #pageintro article p{display:block; max-width:75%; margin:0 auto; text-align:center;}
-#pageintro article p{max-width:65%; line-height:2rem;}
-#pageintro .heading{margin-bottom:20px; font-size:4rem;}
-#pageintro footer{margin-top:50px;}
 
 
 /* Content Area
@@ -176,13 +171,13 @@
 #copyright *{margin:0; padding:0;}
 
 
-/* Transition Fade
+/* /* Transition Fade
 This gives a smooth transition to "ALL" elements used in the layout - other than the navigation form used in mobile devices
 If you don't want it to fade all elements, you have to list the ones you want to be faded individually
 Delete it completely to stop fading
 --------------------------------------------------------------------------------------------------------------- */
 *, *::before, *::after{transition:all .3s ease-in-out;}
-#mainav form *{transition:none !important;}
+#mainav form *{transition:none !important;} */
 
 
 /* ------------------------------------------------------------------------------------------------------------ */
@@ -298,7 +293,7 @@ td{border-width:0 1px;}
 
 /* Colours
 --------------------------------------------------------------------------------------------------------------- */
-body{color:#A5A6AA; background-color:#282E39;}
+/* body{color:#A5A6AA; background-color:#282E39;} */
 a{color:#97A9BD;}
 a:active, a:focus{background:transparent !important;}/* IE10 + 11 Bugfix - prevents grey background */
 hr, .borderedbox{border-color:#D7D7D7;}
@@ -336,10 +331,6 @@ input:focus, textarea:focus, *:required:focus{border-color:#97A9BD !important;}
 
 /* Header */
 #header #logo a{color:inherit;}
-
-
-/* Page Intro */
-#pageintro{color:#FFFFFF;}
 
 
 /* Content Area */
@@ -484,8 +475,8 @@ table a, #comments a{background-color:inherit;}
 	#header{text-align:center;}
 	#header #logo{margin:0 0 15px 0;}
 
-	#pageintro article, #pageintro article p{max-width:none;}
-	#pageintro .heading{font-size:2rem;}
+	/* #pageintro article, #pageintro article p{max-width:none;}
+	#pageintro .heading{font-size:2rem;} */
 
 	.sectiontitle{max-width:none;}
 	.shout figure, .team li, #latest > li{margin:0 auto 50px;}

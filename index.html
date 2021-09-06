@@ -1,31 +1,32 @@
 <!DOCTYPE html>
 <html lang="en-US">
+
 <head>
 <title>MealBuddy</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
 <link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+<link rel="stylesheet" href="layout/styles/style.css">
 </head>
+
 <body id="top">
 <div class="wrapper row1">
   <header id="header" class="hoc clear">
-    <div id="logo" class="fl_left"> 
+    <nav class="navbar navbar-expand-sm bg-dark">
       <h1 class="logoname"><a href="index.html">Meal<span>B</span>uddy</a></h1>
-    </div>
-    <nav id="mainav" class="fl_right"> 
-      <ul class="clear">
-        <li class="active"><a href="index.html">Home</a></li>
-        <li><a href="index.html">Meals</a>
-        </li>
-        <li><a href="index.html">Drinks</a></li>
-        <li><a href="index.html">Marketplace</a></li>
-        <li><a href="index.html">Gifts</a></li>
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="index.html">Meals</a></li>
+        <li class="nav-item"><a class="nav-link" href="index.html">Drinks</a></li>
+        <li class="nav-item"><a class="nav-link" href="index.html">Marketplace</a></li>
       </ul>
     </nav>
   </header>
 </div>
-<div class="bgded overlay" style="background-image:url('images/bg01.png');">
-  <div id="pageintro" class="hoc clear"> 
+<div class="bgmain" style="background-image:url('images/BG_main.jpg');">
+  <div id="pageintro"> 
     <article>
       <h3 class="heading">Welcome To MealBuddy</h3>
       <p>Cat ipsum dolor sit amet, hate dogs dream about hunting birds. Tuxedo cats always looking dapper sleep all day whilst slave is at work, play all night whilst slave is sleeping or love me! </p>
@@ -38,7 +39,28 @@
 
     <!-- main body -->
 
-    <section id="introblocks">
+    <center><h3 class="heading">Chef's Pick</h3></center>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-3">
+          <div class="p-3 border bg-light">Spicy Mango Tofu & Brown Rice</div>
+          <div class="p-3">
+            <img class="cpimg" src="images/food/mango-tofu-brown-rice.jpg" alt="Mango Tofu with Brown Rice">
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="p-3 border bg-light">Sweet Madame</div>
+        </div>
+        <div class="col-sm-3">
+          <div class="p-3 border bg-light">Sweet Madame</div>
+        </div>
+        <div class="col-sm-3">
+          <div class="p-3 border bg-light">Sweet Madame</div>
+        </div>
+      </div>
+      
+    </div>
+    <!-- <section id="introblocks">
       <h1 class="heading"><center>Chef's Choices</h3></center>
       <ul class="nospace group btmspace-80 elements elements-four">
         <li class="one_quarter">
@@ -66,7 +88,7 @@
           </article>
         </li>
       </ul>
-    </section>
+    </section> -->
 
     <section class="group shout">
       <figure class="one_half first"><img src="" alt="">
